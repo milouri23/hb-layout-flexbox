@@ -16,6 +16,7 @@
     justify-content: center;
     overflow: hidden;
     color: #093b18;
+    border: 1px solid black;
     background-color: #d8d8d8;
 }
 
@@ -28,13 +29,13 @@
     width: 100%;
     display: flex;
     margin-bottom: 20px;
-    font-size: 0;
 }
 
 .big-section {
     width: 100%;
     height: 300px;
     margin-right: 20px;
+    border: 1px solid black;
     background-color: #d8d8d8;    
 }
 
@@ -42,6 +43,7 @@
     width: 100%;
     height: 120px;
     margin-right: 20px;
+    border: 1px solid black;
     background-color: #d8d8d8;
 }
 
@@ -55,13 +57,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
     background-color: #d8d8d8;
 }
 
 .pretty-figure {
     width: 150px;
     height: 150px;
-    background-color: #4e3c50
+    border: 1px solid black;
+    background-color: #d8d8d8;
 }
 
 @media (max-width: 500px) {
@@ -69,6 +73,10 @@
         flex-direction: column;
     }
     .big-section, .small-section {
-        margin: 0 0 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .flex-row {
+        margin-bottom: 0; 
     }
 }
